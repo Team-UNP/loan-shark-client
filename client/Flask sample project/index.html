@@ -1,0 +1,35 @@
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <title>main form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="asserts/css/bootstrap.css">
+    <link rel="stylesheet" href="asserts/css/theme.css">
+
+</head>
+<body>
+    <div class="full-page bg-danger d-center">
+        <section class="p-3 bg-dark text-white w-50 border-radius-1">
+            <form method="post" onsubmit="onSubmit()">
+                <div class="form-group ">
+                    <label for="name">Customer Id :</label>
+                    <input id="txtCusId" type="text" class="form-control ">
+                    </br>
+                    <label for="name">amount :</label>
+                    <input id="txtAmount" type="text" class="form-control">
+                    </br>
+                    <label for="name">pool user :</label>
+                    <input id="txtPoolUser" type="text" class="form-control">
+                    </br>
+                    <button type="submit" id="btnSave" class="btn btn-primary modal-footer">Save Customer</button>
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <script src="asserts/js/bootstrap.js"></script>
+    <script src="asserts/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
+
